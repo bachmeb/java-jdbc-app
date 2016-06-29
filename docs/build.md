@@ -10,6 +10,10 @@
 * Using Eclipse
   * Project > Properties > Java Build Path > Libraries > Add External JARs
 
+##### Confirm that ojdbc6.jar was added to the project
+* Using Eclipse
+  * Project > Referenced Libraries
+  
 ##### Make a new class
 ```java
 public class JDBConnector {
