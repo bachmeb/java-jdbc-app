@@ -6,6 +6,10 @@
 ##### Download Oracle JDBC driver
 * http://www.oracle.com/technetwork/database/features/jdbc/index-091264.html
 
+##### Add the JDBC driver to the project
+* Using Eclipse
+  * Project > Properties > Java Build Path > Libraries > Add External JARs
+
 ##### Make a new class
 ```java
 public class JDBConnector {
