@@ -13,6 +13,7 @@
 ##### Make a new class
 ```java
 public class JDBConnector {
+
 }
 ```
 
@@ -21,6 +22,7 @@ public class JDBConnector {
 import java.sql.*;
 
 public class JDBConnector {
+
 }
 ```
 ##### Add a main method
@@ -39,17 +41,17 @@ public class JDBConnector {
 public class JDBConnector {
 
 	public static void main(String[] argv) throws ClassNotFoundException, SQLException {
+			
+		try {
 		
-    try {
-    
-    	Class.forName("oracle.jdbc.driver.OracleDriver");
-    
-    } catch (ClassNotFoundException e) {
-    
-    	System.out.println("Where is your Oracle JDBC Driver?");
-    	e.printStackTrace();
-    	return;
-
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+		
+		} catch (ClassNotFoundException e) {
+		
+			System.out.println("Where is your Oracle JDBC Driver?");
+			e.printStackTrace();
+			return;
+		
 		}
 	}
 }
@@ -60,22 +62,22 @@ public class JDBConnector {
 public class JDBConnector {
 
 	public static void main(String[] argv) throws ClassNotFoundException, SQLException {
+			
+		try {
 		
-    try {
-    
-    	Class.forName("oracle.jdbc.driver.OracleDriver");
-    
-    } catch (ClassNotFoundException e) {
-    
-    	System.out.println("Where is your Oracle JDBC Driver?");
-    	e.printStackTrace();
-    	return;
-    
-    }
-	
-    System.out.println("Oracle JDBC Driver Registered!");
-    
-    Connection connection = null;
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+		
+		} catch (ClassNotFoundException e) {
+		
+			System.out.println("Where is your Oracle JDBC Driver?");
+			e.printStackTrace();
+			return;
+		
+		}
+		
+		System.out.println("Oracle JDBC Driver Registered!");
+		
+		Connection connection = null;
 	
 	}
 }
@@ -87,22 +89,22 @@ public class JDBConnector {
 public class JDBConnector {
 
 	public static void main(String[] argv) throws ClassNotFoundException, SQLException {
+			
+		try {
 		
-    try {
-    
-    	Class.forName("oracle.jdbc.driver.OracleDriver");
-    
-    } catch (ClassNotFoundException e) {
-    
-    	System.out.println("Where is your Oracle JDBC Driver?");
-    	e.printStackTrace();
-    	return;
-    
-    }
-	
-    System.out.println("Oracle JDBC Driver Registered!");
-    
-    Connection connection = null;
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+		
+		} catch (ClassNotFoundException e) {
+		
+			System.out.println("Where is your Oracle JDBC Driver?");
+			e.printStackTrace();
+			return;
+		
+		}
+		
+		System.out.println("Oracle JDBC Driver Registered!");
+		
+		Connection connection = null;
 	
 		try {
 
@@ -127,21 +129,21 @@ public class JDBConnector {
 
 	public static void main(String[] argv) throws ClassNotFoundException, SQLException {
 		
-    try {
-    
-    	Class.forName("oracle.jdbc.driver.OracleDriver");
-    
-    } catch (ClassNotFoundException e) {
-    
-    	System.out.println("Where is your Oracle JDBC Driver?");
-    	e.printStackTrace();
-    	return;
-    
-    }
-	
-    System.out.println("Oracle JDBC Driver Registered!");
-    
-    Connection connection = null;
+		try {
+		
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+		
+		} catch (ClassNotFoundException e) {
+		
+			System.out.println("Where is your Oracle JDBC Driver?");
+			e.printStackTrace();
+			return;
+		
+		}
+		
+		System.out.println("Oracle JDBC Driver Registered!");
+		
+		Connection connection = null;
 	
 		try {
 
